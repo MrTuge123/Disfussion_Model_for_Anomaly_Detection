@@ -60,17 +60,6 @@ Choose a threshold T such that:
 
 The threshold can be chosen by inspecting score histograms or by fixing an acceptable false positive rate on digit 0.
 
-
-Part D: Evaluation
-
-10. AUROC evaluation
-Use AUROC as the primary metric. AUROC measures how well the anomaly score separates normal images from anomalous ones. A score of 0.5 indicates random guessing, while 1.0 indicates perfect separation.
-
-11. Sanity checks
-- Compare average anomaly scores per digit (digit 0 should be lowest).
-- Visualize low-score and high-score examples.
-- Confirm that results are not dominated by a single noise level.
-
 Notes
 This plan is intentionally simple and designed for fast iteration. More advanced extensions can include trajectory-based scores, likelihood comparisons, or multi-class training, but those are deferred until this baseline is validated.
 
