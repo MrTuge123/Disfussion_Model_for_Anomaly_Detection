@@ -1,0 +1,21 @@
+name: anomaly-detection
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - ipykernel
+  - jupyter
+  - pip
+  - pip:
+    - openpyxl
