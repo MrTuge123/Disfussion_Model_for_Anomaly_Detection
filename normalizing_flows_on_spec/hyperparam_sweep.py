@@ -38,7 +38,7 @@ from sklearn.metrics import (
 )
 
 # =====================================================================
-# FIXED CONFIG (same as the notebook)
+# FIXED CONFIG
 # =====================================================================
 SOURCE_POLYMER_FILE  = "all_spectra.csv"
 SOURCE_MICROPLASTIC_FILE = "ambient_spectra.csv"
@@ -53,7 +53,7 @@ BATCH_SIZE       = 64
 WEIGHT_DECAY     = 1e-4
 CLIP_GRAD_NORM   = 3.0
 PATIENCE         = 20
-THRESHOLD_PERCENTILE = 10   # baseline reference only
+THRESHOLD_PERCENTILE = 10
 
 # =====================================================================
 # SWEEP GRID
